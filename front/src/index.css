@@ -1,0 +1,31 @@
+/* 
+font 
+ font-family: "Voltaire", sans-serif;
+  font-family: "Poppins", sans-serif;
+*/
+
+:root {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-Light);
+  color: var(--color-Font);
+
+  --color-Font: #374957;
+  --color-Light: #F7F1F8;
+  --color-Light-hover: #F3EAF5;
+  --color-Light-active: #E6D4EA;
+  --color-Normal: #AF74BC;
+  /* --color-Normal-hover: #9E68A9;
+  --color-Normal-active: #8C5D96; */
+  --color-Dark: #83578D;
+  --color-Dark-hover: #694671;
+  --color-Darker: #3D2942;
+
+  --color-Status-laranja:#DC8930;
+  --color-Status-verde:#DC8930;
+  --color-Status-vermelho:#C14547;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

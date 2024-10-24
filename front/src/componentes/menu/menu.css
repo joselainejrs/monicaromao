@@ -1,0 +1,20 @@
+.link {
+    margin-left: 1em;
+    text-decoration: none;
+    color: var(--color-Normal);
+    font: 1.4rem "Voltaire", sans-serif;
+}
+
+link:hover {
+    color: var(--color-Dark)
+}
+
+.link.active {
+    color: var(--color-Dark); 
+}
+
+@media (max-width: 850px) {
+    .link {
+        margin-left: 0;
+    }
+}
