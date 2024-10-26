@@ -11,7 +11,7 @@ export default function AppRoutes() {
     <Routes>
 
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<Agendar />} />
+      <Route path="/agendar" element={<Agendar />} />
        {/* Pagina em construção */}
        {/* <Route path="*" element={<NotFound />} /> */}
       {/* <Route path="/contact" element={<Perfil />} /> */}

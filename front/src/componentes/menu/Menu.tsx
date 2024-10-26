@@ -1,4 +1,5 @@
 import './menu.css'
+import '../../../public/estilo/padroniza.css'
 import Logo from '../../../public/img/logo.svg'
 import { Link, useLocation } from 'react-router-dom';
 
@@ -6,23 +7,6 @@ import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components'
 
 // Componente estilizado usando styled-components
-const CampoMenu = styled.div`
-  background-color: white;
-`;
-
-const Background = styled.div`
-  width: 70%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-
-  @media (max-width: 850px) {
-    display: block;
-    text-align: center;
-  }
-`;
 
 const ListaNaoOrdenada = styled.ul`
   display: flex;
@@ -47,12 +31,12 @@ export default function Menu() {
 
   const OpcoesMenu = [
     { 'label': 'Quem Sou', 'path': '/', 'img': '../../../public/img/menu/quem-sou.svg', 'alt': 'Icone de carteira de usuario' },
-    { 'label': 'Agendar Consulta', 'path': '/Agendar', 'img': '../../../public/img/menu/agendamento.svg', 'alt': 'Icone de sacola de compra' },
+    { 'label': 'Agendar Consulta', 'path': '/agendar', 'img': '../../../public/img/menu/agendamento.svg', 'alt': 'Icone de sacola de compra' },
   ]
 
   return (
-    <CampoMenu>
-      <Background>
+    <header>
+      <div className='campo-menu'>
         <IconeLogo src={Logo} alt="Logo" />
         <nav>
           <ListaNaoOrdenada>
@@ -66,8 +50,8 @@ export default function Menu() {
             ))}
           </ListaNaoOrdenada>
         </nav>
-      </Background>
-    </CampoMenu>
+      </div>
+    </header>
   )
 }
 

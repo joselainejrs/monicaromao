@@ -1,21 +1,19 @@
-/* 
-font 
- font-family: "Voltaire", sans-serif;
-  font-family: "Poppins", sans-serif;
-*/
+
 
 :root {
-  font-family: "Poppins", sans-serif;
+  --font-Roboto: "Roboto Condensed", sans-serif;;
+  --font-Voltaire: "Voltaire", sans-serif;
+  
   background-color: var(--color-Light);
-  color: var(--color-Font);
+  
 
   --color-Font: #374957;
   --color-Light: #F7F1F8;
   --color-Light-hover: #F3EAF5;
   --color-Light-active: #E6D4EA;
   --color-Normal: #AF74BC;
-  /* --color-Normal-hover: #9E68A9;
-  --color-Normal-active: #8C5D96; */
+  /* --color-Normal-hover: #9E68A9; */
+  --color-Normal-active: #8C5D96; 
   --color-Dark: #83578D;
   --color-Dark-hover: #694671;
   --color-Darker: #3D2942;
@@ -28,4 +26,8 @@ font
 body{
   margin: 0;
   padding: 0;
+
+  color: var(--color-Font);
+  font-family: var(--font-Roboto);
+  font-size: 1rem;
 }

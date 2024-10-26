@@ -1,0 +1,39 @@
+.conteudo{
+    padding: 5.6rem 0;
+}
+
+.conteudo-home{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+.campo-descicao{
+    margin-bottom: 4em;
+}
+
+.monica{
+    font-weight: 300;
+}
+
+
+.slong, span{
+    font-family: var(--font-Voltaire);
+}
+
+.slong{
+    font-size: 1.3rem;
+}
+
+button{
+    width: 15em;
+    float: right;
+    margin-right: 3rem ;
+}
+
+.img-monica{
+    width: 80%
+}

@@ -1,0 +1,27 @@
+.card-agenda {
+    border: 1px solid var(--color-Light-hover);
+    background-color: var(--color-Light-hover);
+    /* Aplicar sombra */
+}
+
+.campo-form-agenda,
+.input-conj {
+    display: flex;
+}
+
+.campo-form-agenda {
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 2em;
+
+}
+
+.dados-pessoal,
+.consultar-dados {
+    border: 1px solid var(--color-Light-active);
+    padding: 1em;
+}
+
+label {
+    padding-right: 0.5em;
+}
