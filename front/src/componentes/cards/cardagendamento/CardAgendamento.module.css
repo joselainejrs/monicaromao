@@ -1,0 +1,92 @@
+.card-agenda {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+.form-agenda {
+    border-radius: 10px;
+    padding: 1.2em 3em;
+    border: 1px solid var(--color-Light-hover);
+    background-color: var(--color-Light-hover);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  font: 1.5em var(--font-Voltaire);
+}
+
+.campo-form-agenda,
+.input-conj {
+    display: flex;
+}
+
+
+.input-conj,
+.campo-form-agenda {
+    justify-content: space-between;
+}
+
+.campo-form-agenda {
+    margin: 0 auto;
+    margin: 2em 0;
+
+}
+
+.dados-pessoal,
+.consultar-dados {
+    border-radius: 10px;
+    border: 1px solid var(--color-Light-active);
+    padding: 1em;
+}
+
+.desativado {
+    font-weight: 300;
+    color: var(--color-cinza);
+}
+
+label {
+    font-weight: 300;
+    padding-right: 5.8em;
+}
+
+/* Nome e tratamento */
+
+.input-n-t {
+    margin-top: 0.5em;
+    width: 22.6em
+}
+
+/*  tratamento */
+
+.label-t {
+    margin-top: 1em;
+}
+
+/*  Telefone*/
+
+.input-t {
+    width: 9.5em;
+}
+
+/* CPF e Data */
+
+.input-d,
+.input-c {
+    width: 11em;
+    margin-right: 0.3em;
+}
+
+/* Hora */
+
+.input-h {
+    width: 9em;
+}
+
+.btn-agendamento {
+    text-align: right
+}
+
+.btn-solicitar-agendamento {
+    width: 22em;
+}

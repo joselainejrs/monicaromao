@@ -1,0 +1,39 @@
+.e-card-login {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.form-login {
+    width: 18em;
+    padding: 1em;
+    margin: 3em auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.title{
+    font: 1.4em var(--font-Voltaire);
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+
+input {
+    width: 16em;
+    margin-top: 0.5em;
+}
+
+button {
+    width: 17.3em;
+}
+
+.btn-login {
+    margin-top: 2em;
+}

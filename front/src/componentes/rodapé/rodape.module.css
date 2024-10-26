@@ -1,0 +1,24 @@
+.campo-rodape {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.descricao {
+    font: 1rem var(--font-Roboto);
+}
+
+.destaqueDescricao {
+    font: 1rem var(--font-Voltaire);
+}
+
+@media (max-width: 850px) {
+    .campo-rodape {
+        display: block;
+        text-align: center;
+    }
+
+}

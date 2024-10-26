@@ -1,0 +1,19 @@
+.campo-info-status {
+    padding: 0.5em;
+    border-radius: 10px;
+    border: 1px solid var(--color-Light-active);
+}
+
+.campo-info-status:hover{
+    background-color: var(--color-Light-hover);
+
+}
+
+.campo-info-status p {
+    font-family: var(--font-Voltaire);
+}
+
+.campo-info-status span {
+    font-family: var(--font-Roboto);
+    font-weight: 300;
+}

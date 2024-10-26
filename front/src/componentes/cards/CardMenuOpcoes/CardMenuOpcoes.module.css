@@ -1,0 +1,37 @@
+.primario,
+.segundario {
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.segundario{
+    margin-top: 3em;
+}
+
+.campo-descricao {
+    display: flex;
+}
+
+.detalhes{
+    padding-left: 1em;
+}
+
+.detalhes .nome{
+    font-family: var(--font-Voltaire);
+}
+
+.detalhes .tipo{
+    font-family: var(--font-Roboto);
+    font-weight: 300;
+}
+hr {
+    color: var(--color-cinza-linha);
+}
+
+.circulo {
+    background-color: var(--color-cinza-claro);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

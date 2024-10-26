@@ -1,0 +1,30 @@
+section{
+    padding: 3.2em 0;
+}
+
+.campo-perfil{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between
+}
+
+.descricoes-opcoes{
+   background-color: var(--color-cinza-claro);
+   border-radius: 10px;
+   padding: 1em;
+}
+
+.title{
+    font: 1.5em var(--font-Voltaire);
+    padding-bottom: 0.5em;
+  }
+
+  .campo-status{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 1.8em;
+   
+  }
+  

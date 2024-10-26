@@ -1,18 +1,19 @@
 .conteudo{
-    padding: 5.6rem 0;
+    padding: 4.6rem 0;
 }
 
-.conteudo-home{
+/* {
     width: 70%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
   }
-  
+   */
 
 .campo-descicao{
     margin-bottom: 4em;
+    width: 33em;
 }
 
 .monica{
@@ -20,7 +21,7 @@
 }
 
 
-.slong, span{
+.dest-text{
     font-family: var(--font-Voltaire);
 }
 
@@ -28,12 +29,8 @@
     font-size: 1.3rem;
 }
 
-button{
+.btn-agenda{
     width: 15em;
     float: right;
-    margin-right: 3rem ;
-}
-
-.img-monica{
-    width: 80%
+    /* margin-right: 3rem ; */
 }

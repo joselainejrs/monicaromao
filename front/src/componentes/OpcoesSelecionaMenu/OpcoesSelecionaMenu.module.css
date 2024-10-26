@@ -1,0 +1,10 @@
+.opcoes {
+    border: 0;
+    border-radius: 0;
+    color: var(--color-Normal);
+    background-color: var(--color-cinza-claro);
+}
+.opcoes:hover {
+    color: white;
+    
+}
